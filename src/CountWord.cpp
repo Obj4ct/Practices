@@ -8,7 +8,7 @@ using namespace std;
 string toLower(string s)
 {
     // 遍历字符串中的每个字符
-    for (char &c : s)
+    for (char c : s)
         // 如果字符是大写字母，则将其转换为小写字母
         if (c >= 'A' && c <= 'Z')
             c += 'a' - 'A';
